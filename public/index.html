@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whereabouts – Athlete Anti-Doping Filings</title>
+  <link rel="icon" href="/img/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img class="brand-mark" src="/img/mark.svg" alt="">
+      <div><span id="app-name">Whereabouts</span><small>Anti-doping whereabouts filings</small></div>
+    </div>
+    <nav class="nav" aria-label="Main">
+      <a href="#/whereabouts" data-route="whereabouts">Live board</a>
+      <a href="#/dashboard" data-route="dashboard">Overview</a>
+      <a href="#/athletes" data-route="athletes">Athletes</a>
+      <a href="#/travel" data-route="travel">Travel</a>
+      <a href="#/competitions" data-route="competitions">Competitions</a>
+      <a href="#/failures" data-route="failures">Failures</a>
+      <a href="#/activity" data-route="activity">Audit log</a>
+    </nav>
+    <div class="clock">
+      <div>
+        <div class="clock-time" id="clock-time">--:--:--</div>
+      </div>
+      <div class="clock-meta">
+        <div id="clock-date">&nbsp;</div>
+        <div><span class="conn" id="conn">Connecting</span></div>
+      </div>
+      <div class="user-menu">
+        <span id="user-name"></span>
+        <button type="button" id="logout">Sign out</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="view" tabindex="-1" aria-live="polite"></main>
+  <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
