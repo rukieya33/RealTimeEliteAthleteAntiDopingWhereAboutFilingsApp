@@ -1,5 +1,5 @@
 {
-  "_note": "PLACEHOLDER DATA. Competition names, venues and locations are made up. Dates are offsets in days from the day you run the seed, so the data is always current.",
+  "_note": "FICTIONAL BY DESIGN. Competition names, venues, competition locations and travel booking locations are made up. Dates are offsets in days from the day you run the seed, so the data is always current.",
   "competitions": [
     {
       "name": "Marrowby Indoor Grand Prix", "sport": "Athletics", "level": "International",

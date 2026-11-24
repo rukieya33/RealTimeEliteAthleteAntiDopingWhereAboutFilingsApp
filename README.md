@@ -4,7 +4,7 @@ A web app that lets a sport management agency file and monitor anti-doping where
 
 Built with **Node.js, Express, MySQL, HTML, CSS and vanilla JavaScript**. No front-end framework or build step is needed.
 
-> **Placeholder data.** The athletes, addresses, competition locations and travel booking locations in `db/data/` are fictional. Load the agency's own athlete table with the CSV import (see below).
+> **Fictional by design.** For safety and security, every athlete, home address, allowed location, competition location and travel booking location in this app is fictional. No real person's whereabouts are stored. The towns and venues are made up too, so nothing can be traced to a real place.
 
 ## What it does
 
@@ -67,13 +67,15 @@ Open http://localhost:3000 and sign in:
 | Manager | manager@agency.test | Demo1234! |
 | Viewer | viewer@agency.test | Demo1234! |
 
-Change these passwords before using real data.
+Change these passwords before deploying the app anywhere other than your own machine.
 
 The seed generates dates relative to the day you run it. The board is therefore always current: filings run from four weeks ago to the end of next quarter, with deliberate gaps and conflicts so the alerts have something to show. Re-run `npm run db:seed` at any time to reset.
 
-## Loading the agency's athlete table
+## Adding more fictional athletes
 
-Save the athlete table as CSV with these columns (header names are matched loosely):
+The seed athletes live in `db/data/athletes.json`. To add more, edit that file and re-run `npm run db:seed`, or import a CSV. Keep any added athletes and locations fictional.
+
+CSV columns (header names are matched loosely):
 
 `athlete_code, first_name, last_name, gender, date_of_birth, nationality, sport, discipline, testing_pool, email, phone, agent_name, status, allowed_locations`
 
@@ -108,7 +110,7 @@ src/services/audit.js       audit log + live activity feed
 src/services/importer.js    CSV athlete import
 src/routes/               REST API
 db/schema.sql             MySQL schema
-db/data/                  placeholder athletes, competitions, CSV template
+db/data/                  fictional athletes, competitions, CSV template
 scripts/                  init-db, seed, import-athletes
 public/                   front end (HTML, CSS, ES modules)
 tests/                    unit tests (npm test)
