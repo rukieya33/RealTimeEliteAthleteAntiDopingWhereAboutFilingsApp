@@ -1,0 +1,138 @@
+{
+  "_note": "PLACEHOLDER DATA. All athletes, addresses and towns below are fictional. Replace this file with the agency's elite athlete table (or use the CSV import) and re-run `npm run db:seed`.",
+  "athletes": [
+    {
+      "athlete_code": "ATH-1001",
+      "first_name": "Imani", "last_name": "Okoro-Vale", "gender": "Female", "date_of_birth": "1998-03-14",
+      "nationality": "United Kingdom", "sport": "Athletics", "discipline": "400m Hurdles", "testing_pool": "RTP",
+      "email": "imani.okorovale@example.com", "phone": "+44 7700 900101", "agent_name": "Daniel Reyes", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "14 Harrow Lane", "city": "Kestrelford", "region": "Westmere", "country": "United Kingdom", "postcode": "KF3 8LP", "access_notes": "Flat 2, buzzer labelled Okoro-Vale" },
+        { "label": "Kestrelford Athletics Centre", "location_type": "Training", "address_line": "Riverside Park, Mill Road", "city": "Kestrelford", "region": "Westmere", "country": "United Kingdom", "postcode": "KF1 2AA", "access_notes": "Main track, report to reception" },
+        { "label": "Ironhall Performance Gym", "location_type": "Gym", "address_line": "Unit 7, Ironhall Trading Estate", "city": "Kestrelford", "region": "Westmere", "country": "United Kingdom", "postcode": "KF5 9QT", "access_notes": null },
+        { "label": "Family home", "location_type": "Family", "address_line": "3 Orchard Close", "city": "Brindlemoor", "region": "Westmere", "country": "United Kingdom", "postcode": "BM2 4RH", "access_notes": null }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1002",
+      "first_name": "Tomas", "last_name": "Lindqvar", "gender": "Male", "date_of_birth": "1996-11-02",
+      "nationality": "Sweden", "sport": "Cross-Country Skiing", "discipline": "Distance", "testing_pool": "RTP",
+      "email": "tomas.lindqvar@example.com", "phone": "+46 70 555 0102", "agent_name": "Sara Holm", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "Granvägen 22", "city": "Oskarvik", "region": "Norrfjäll", "country": "Sweden", "postcode": "921 45", "access_notes": "Red house at end of the road" },
+        { "label": "Oskarvik Nordic Arena", "location_type": "Training", "address_line": "Skidbacken 1", "city": "Oskarvik", "region": "Norrfjäll", "country": "Sweden", "postcode": "921 40", "access_notes": "Wax cabin B" },
+        { "label": "Altitude camp – Høgdal Lodge", "location_type": "Training Camp", "address_line": "Fjellvegen 88", "city": "Høgdal", "region": "Fjellmark", "country": "Norway", "postcode": "2680", "access_notes": "Room 14" }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1003",
+      "first_name": "Lucía", "last_name": "Marbella-Quint", "gender": "Female", "date_of_birth": "2000-07-21",
+      "nationality": "Spain", "sport": "Swimming", "discipline": "200m Butterfly", "testing_pool": "RTP",
+      "email": "lucia.mq@example.com", "phone": "+34 600 555 103", "agent_name": "Daniel Reyes", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "Calle de las Gaviotas 9, 3ºB", "city": "Santa Irelda", "region": "Costa Valdera", "country": "Spain", "postcode": "29680", "access_notes": null },
+        { "label": "Centro Acuático Santa Irelda", "location_type": "Training", "address_line": "Avenida del Puerto 120", "city": "Santa Irelda", "region": "Costa Valdera", "country": "Spain", "postcode": "29681", "access_notes": "50m pool, lane 4 squad" },
+        { "label": "Clínica Fisio Mar", "location_type": "Medical", "address_line": "Plaza Mayor 4", "city": "Santa Irelda", "region": "Costa Valdera", "country": "Spain", "postcode": "29680", "access_notes": null }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1004",
+      "first_name": "Kwame", "last_name": "Asante-Ridge", "gender": "Male", "date_of_birth": "1997-01-30",
+      "nationality": "Ghana", "sport": "Athletics", "discipline": "100m / 200m", "testing_pool": "RTP",
+      "email": "kwame.ar@example.com", "phone": "+233 20 555 0104", "agent_name": "Priya Natarajan", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "17 Palmline Crescent", "city": "Port Aldine", "region": "Coastal District", "country": "Ghana", "postcode": "GA-117", "access_notes": "Gate code given to DCOs on arrival" },
+        { "label": "Port Aldine Sprint Academy", "location_type": "Training", "address_line": "Stadium Road", "city": "Port Aldine", "region": "Coastal District", "country": "Ghana", "postcode": "GA-102", "access_notes": null },
+        { "label": "Hollin Ridge Training Base", "location_type": "Training Camp", "address_line": "Ridge Campus, Lot 4", "city": "Hollin Ridge", "region": "Upper Valley", "country": "Ghana", "postcode": "UV-330", "access_notes": "Dormitory C" }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1005",
+      "first_name": "Mei", "last_name": "Tanaka-Hollis", "gender": "Female", "date_of_birth": "1999-05-09",
+      "nationality": "Japan", "sport": "Cycling", "discipline": "Road", "testing_pool": "RTP",
+      "email": "mei.tanakahollis@example.com", "phone": "+81 90 5550 0105", "agent_name": "Sara Holm", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "2-8-11 Kawabe-cho", "city": "Minato-Ishi", "region": "Kaigan Prefecture", "country": "Japan", "postcode": "650-0011", "access_notes": "Apartment 504" },
+        { "label": "Minato-Ishi Velodrome", "location_type": "Training", "address_line": "1-1 Kyogijo-dori", "city": "Minato-Ishi", "region": "Kaigan Prefecture", "country": "Japan", "postcode": "650-0042", "access_notes": null },
+        { "label": "Team service course", "location_type": "Other", "address_line": "Via del Colle 15", "city": "Valcresta", "region": "Alta Lombera", "country": "Italy", "postcode": "23030", "access_notes": "European base during race season" }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1006",
+      "first_name": "Rafael", "last_name": "Duarte-Moss", "gender": "Male", "date_of_birth": "1995-09-17",
+      "nationality": "Brazil", "sport": "Football", "discipline": "Midfielder", "testing_pool": "TP",
+      "email": "rafael.dm@example.com", "phone": "+55 11 95550 0106", "agent_name": "Priya Natarajan", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "Rua das Acácias 450, Ap 1202", "city": "Lagoa Serena", "region": "Planalto Sul", "country": "Brazil", "postcode": "04512-000", "access_notes": "Concierge will call up" },
+        { "label": "Lagoa Serena FC Training Ground", "location_type": "Training", "address_line": "Estrada do Centro de Treinamento km 3", "city": "Lagoa Serena", "region": "Planalto Sul", "country": "Brazil", "postcode": "04590-100", "access_notes": "Gate 2, first-team building" },
+        { "label": "Club gym", "location_type": "Gym", "address_line": "Estrada do Centro de Treinamento km 3", "city": "Lagoa Serena", "region": "Planalto Sul", "country": "Brazil", "postcode": "04590-100", "access_notes": null }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1007",
+      "first_name": "Aoife", "last_name": "Brennagh", "gender": "Female", "date_of_birth": "2001-12-03",
+      "nationality": "Ireland", "sport": "Rowing", "discipline": "Single Sculls", "testing_pool": "RTP",
+      "email": "aoife.brennagh@example.com", "phone": "+353 85 555 0107", "agent_name": "Daniel Reyes", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "6 Quayside Terrace", "city": "Lough Carran", "region": "Midlands West", "country": "Ireland", "postcode": "N41 X2C7", "access_notes": null },
+        { "label": "Lough Carran Rowing Centre", "location_type": "Training", "address_line": "Boathouse Lane", "city": "Lough Carran", "region": "Midlands West", "country": "Ireland", "postcode": "N41 B8K2", "access_notes": "Boathouse 3" },
+        { "label": "University sports lab", "location_type": "Medical", "address_line": "Science Park, Block D", "city": "Ardmullen", "region": "Midlands West", "country": "Ireland", "postcode": "N39 P4F1", "access_notes": null }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1008",
+      "first_name": "Nikolai", "last_name": "Vereshkin", "gender": "Male", "date_of_birth": "1994-04-25",
+      "nationality": "Estonia", "sport": "Biathlon", "discipline": "Sprint / Pursuit", "testing_pool": "RTP",
+      "email": "n.vereshkin@example.com", "phone": "+372 5555 0108", "agent_name": "Sara Holm", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "Metsa tänav 12", "city": "Kuusevälja", "region": "Lõunamaa", "country": "Estonia", "postcode": "61701", "access_notes": null },
+        { "label": "Kuusevälja Biathlon Stadium", "location_type": "Training", "address_line": "Spordi 1", "city": "Kuusevälja", "region": "Lõunamaa", "country": "Estonia", "postcode": "61702", "access_notes": "Range office" },
+        { "label": "Lunebourg Winter Base", "location_type": "Training Camp", "address_line": "Chemin des Sapins 3", "city": "Lunebourg", "region": "Haut-Vallon", "country": "France", "postcode": "73500", "access_notes": "Chalet Edelweiss" }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1009",
+      "first_name": "Zara", "last_name": "Whitcombe", "gender": "Female", "date_of_birth": "1997-08-12",
+      "nationality": "Australia", "sport": "Triathlon", "discipline": "Olympic Distance", "testing_pool": "RTP",
+      "email": "zara.whitcombe@example.com", "phone": "+61 400 555 109", "agent_name": "Priya Natarajan", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "28 Banksia Parade", "city": "Brightwater Bay", "region": "Southern Coast", "country": "Australia", "postcode": "4221", "access_notes": null },
+        { "label": "Brightwater Aquatic & Tri Hub", "location_type": "Training", "address_line": "1 Esplanade North", "city": "Brightwater Bay", "region": "Southern Coast", "country": "Australia", "postcode": "4220", "access_notes": null },
+        { "label": "Caldera Springs Altitude Camp", "location_type": "Training Camp", "address_line": "Summit Road", "city": "Caldera Springs", "region": "High Plateau", "country": "Australia", "postcode": "2642", "access_notes": "Cabin 7" }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1010",
+      "first_name": "Omar", "last_name": "El-Haddadi", "gender": "Male", "date_of_birth": "1999-02-18",
+      "nationality": "Morocco", "sport": "Athletics", "discipline": "Marathon", "testing_pool": "RTP",
+      "email": "omar.elhaddadi@example.com", "phone": "+212 600 555 110", "agent_name": "Daniel Reyes", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "Derb Zitoun 33", "city": "Tazrout", "region": "Haut-Atlas Est", "country": "Morocco", "postcode": "45000", "access_notes": "Blue door opposite the mosque" },
+        { "label": "Tazrout High-Altitude Track", "location_type": "Training", "address_line": "Route du Plateau", "city": "Tazrout", "region": "Haut-Atlas Est", "country": "Morocco", "postcode": "45010", "access_notes": null },
+        { "label": "Training group house", "location_type": "Training Camp", "address_line": "Résidence Cèdre, Villa 5", "city": "Ifrane-Haut", "region": "Moyen Plateau", "country": "Morocco", "postcode": "53000", "access_notes": null }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1011",
+      "first_name": "Hannah", "last_name": "Kessler-Brandt", "gender": "Female", "date_of_birth": "1996-06-27",
+      "nationality": "Germany", "sport": "Weightlifting", "discipline": "-71kg", "testing_pool": "RTP",
+      "email": "hannah.kb@example.com", "phone": "+49 151 5550 0111", "agent_name": "Sara Holm", "status": "Injured",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "Lindenstraße 41", "city": "Falkenhain", "region": "Mittelland", "country": "Germany", "postcode": "36041", "access_notes": "2nd floor" },
+        { "label": "Bundesstützpunkt Falkenhain", "location_type": "Training", "address_line": "Sportpark 2", "city": "Falkenhain", "region": "Mittelland", "country": "Germany", "postcode": "36043", "access_notes": "Lifting hall" },
+        { "label": "Reha-Zentrum Falkenhain", "location_type": "Medical", "address_line": "Klinikweg 9", "city": "Falkenhain", "region": "Mittelland", "country": "Germany", "postcode": "36043", "access_notes": "Rehabilitation, knee" }
+      ]
+    },
+    {
+      "athlete_code": "ATH-1012",
+      "first_name": "Diego", "last_name": "Albarrán", "gender": "Male", "date_of_birth": "2002-10-05",
+      "nationality": "Mexico", "sport": "Boxing", "discipline": "Lightweight", "testing_pool": "TP",
+      "email": "diego.albarran@example.com", "phone": "+52 55 5550 0112", "agent_name": "Priya Natarajan", "status": "Active",
+      "locations": [
+        { "label": "Home", "location_type": "Home", "address_line": "Calle Nogal 18", "city": "San Telmo de la Sierra", "region": "Altiplano Central", "country": "Mexico", "postcode": "56600", "access_notes": null },
+        { "label": "Gimnasio El Puño de Oro", "location_type": "Training", "address_line": "Avenida Juárez 220", "city": "San Telmo de la Sierra", "region": "Altiplano Central", "country": "Mexico", "postcode": "56610", "access_notes": "Upstairs ring" },
+        { "label": "Strength & conditioning studio", "location_type": "Gym", "address_line": "Plaza Los Pinos, Local 12", "city": "San Telmo de la Sierra", "region": "Altiplano Central", "country": "Mexico", "postcode": "56612", "access_notes": null }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+athlete_code,first_name,last_name,gender,date_of_birth,nationality,sport,discipline,testing_pool,email,phone,agent_name,status,allowed_locations
+ATH-2001,Example,Athlete,Female,1999-01-01,United Kingdom,Athletics,800m,RTP,example.athlete@example.com,+44 7700 900999,Daniel Reyes,Active,"Home | 1 Sample Street | Kestrelford | United Kingdom | Home; Kestrelford Athletics Centre | Riverside Park | Kestrelford | United Kingdom | Training"

@@ -1,0 +1,88 @@
+{
+  "_note": "PLACEHOLDER DATA. Competition names, venues and locations are made up. Dates are offsets in days from the day you run the seed, so the data is always current.",
+  "competitions": [
+    {
+      "name": "Marrowby Indoor Grand Prix", "sport": "Athletics", "level": "International",
+      "venue": "Marrowby Arena", "city": "Marrowby", "country": "United Kingdom",
+      "start_offset": 3, "duration_days": 2,
+      "hotel": { "label": "Hotel – Marrowby Riverside Inn", "address_line": "2 Quay Street", "postcode": "MW1 4TT" },
+      "entries": [ { "athlete_code": "ATH-1001", "event_name": "400m" }, { "athlete_code": "ATH-1004", "event_name": "200m" } ]
+    },
+    {
+      "name": "Nordreva World Cup – Stage 3", "sport": "Cross-Country Skiing", "level": "International",
+      "venue": "Nordreva Ski Stadium", "city": "Nordreva", "country": "Finland",
+      "start_offset": 6, "duration_days": 3,
+      "hotel": { "label": "Hotel – Nordreva Lodge", "address_line": "Tunturitie 5", "postcode": "99130" },
+      "entries": [ { "athlete_code": "ATH-1002", "event_name": "15km Classic" } ]
+    },
+    {
+      "name": "Valdera Open Swim Meet", "sport": "Swimming", "level": "Continental",
+      "venue": "Piscina Olímpica Valdera", "city": "Puerto Valdera", "country": "Spain",
+      "start_offset": 10, "duration_days": 3,
+      "hotel": { "label": "Hotel – Gran Hotel Valdera", "address_line": "Paseo Marítimo 1", "postcode": "29700" },
+      "entries": [ { "athlete_code": "ATH-1003", "event_name": "200m Butterfly" } ]
+    },
+    {
+      "name": "Kuusevälja Biathlon Cup", "sport": "Biathlon", "level": "International",
+      "venue": "Lunebourg Biathlon Centre", "city": "Lunebourg", "country": "France",
+      "start_offset": 14, "duration_days": 4,
+      "hotel": { "label": "Hotel – Les Cimes Lunebourg", "address_line": "Route des Cimes 12", "postcode": "73500" },
+      "entries": [ { "athlete_code": "ATH-1008", "event_name": "Sprint 10km" } ]
+    },
+    {
+      "name": "Sunreach Coast Triathlon Series", "sport": "Triathlon", "level": "International",
+      "venue": "Sunreach Foreshore", "city": "Sunreach", "country": "New Zealand",
+      "start_offset": 20, "duration_days": 2,
+      "hotel": { "label": "Hotel – Sunreach Harbour Suites", "address_line": "8 Wharf Road", "postcode": "3110" },
+      "entries": [ { "athlete_code": "ATH-1009", "event_name": "Elite Women" } ]
+    },
+    {
+      "name": "Atlas Highlands Marathon", "sport": "Athletics", "level": "International",
+      "venue": "Atlas Highlands Start/Finish Plaza", "city": "Aït Merzane", "country": "Morocco",
+      "start_offset": 25, "duration_days": 1,
+      "hotel": { "label": "Hotel – Riad Merzane", "address_line": "Avenue des Cèdres 4", "postcode": "45300" },
+      "entries": [ { "athlete_code": "ATH-1010", "event_name": "Marathon" } ]
+    },
+    {
+      "name": "Lough Carran Winter Head", "sport": "Rowing", "level": "National",
+      "venue": "Lough Carran Course", "city": "Lough Carran", "country": "Ireland",
+      "start_offset": 9, "duration_days": 1,
+      "hotel": null,
+      "entries": [ { "athlete_code": "ATH-1007", "event_name": "W1x" } ]
+    },
+    {
+      "name": "Copa Sierra Alta Boxing Championship", "sport": "Boxing", "level": "Continental",
+      "venue": "Arena Sierra Alta", "city": "Villa Cumbres", "country": "Mexico",
+      "start_offset": 31, "duration_days": 4,
+      "hotel": { "label": "Hotel – Posada Cumbres", "address_line": "Calle Real 77", "postcode": "56700" },
+      "entries": [ { "athlete_code": "ATH-1012", "event_name": "Lightweight" } ]
+    },
+    {
+      "name": "Coastal Derby League Fixture", "sport": "Football", "level": "National",
+      "venue": "Estádio Maré Alta", "city": "Porto Coral", "country": "Brazil",
+      "start_offset": 5, "duration_days": 1,
+      "hotel": { "label": "Hotel – Coral Bay Team Hotel", "address_line": "Av. Beira-Mar 900", "postcode": "88010-000" },
+      "entries": [ { "athlete_code": "ATH-1006", "event_name": "League match" } ]
+    },
+    {
+      "name": "Valcresta Winter Criterium", "sport": "Cycling", "level": "Invitational",
+      "venue": "Circuito di Valcresta", "city": "Valcresta", "country": "Italy",
+      "start_offset": 40, "duration_days": 2,
+      "hotel": null,
+      "entries": [ { "athlete_code": "ATH-1005", "event_name": "Elite Women Criterium" } ]
+    },
+    {
+      "name": "Westmere Indoor Championships", "sport": "Athletics", "level": "National",
+      "venue": "Westmere National Indoor Centre", "city": "Kestrelford", "country": "United Kingdom",
+      "start_offset": 52, "duration_days": 2,
+      "hotel": null,
+      "entries": [ { "athlete_code": "ATH-1001", "event_name": "400m" } ]
+    }
+  ],
+  "carriers": {
+    "Flight": ["AeroNimbus Air", "Skylark Atlantic", "Polar Crest Airways", "Meridian Blue"],
+    "Train": ["Northline Rail", "Continental Express", "Valley Link Rail"],
+    "Coach": ["Highroad Coaches"],
+    "Car": ["Team vehicle"]
+  }
+}
