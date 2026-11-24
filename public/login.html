@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in – Whereabouts</title>
+  <link rel="icon" href="/img/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/app.css">
+</head>
+<body>
+  <div class="login-page">
+    <section class="login-art">
+      <div class="brand"><img class="brand-mark" src="/img/mark.svg" alt=""> Whereabouts</div>
+      <div>
+        <h1>Know where every athlete is filed to be, right now.</h1>
+        <div class="login-ruler" aria-hidden="true"><div class="slot"></div><div class="now"></div></div>
+        <p>Live 60-minute slots, overnight addresses and same-day updates for your elite athletes, checked against their travel bookings and competitions.</p>
+      </div>
+      <p class="small">For authorised agency staff only. Every change is recorded in the audit log.</p>
+    </section>
+    <section class="login-form">
+      <form id="login-form" novalidate>
+        <h2>Sign in</h2>
+        <p class="muted">Use your agency account.</p>
+        <div class="errors hidden" id="login-error" role="alert"></div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="username" required>
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+        </div>
+        <button class="btn btn-primary" type="submit" style="width:100%;justify-content:center">Sign in</button>
+        <div class="demo-accounts">
+          Demo accounts after seeding:<br>
+          <code>admin@agency.test</code> / <code>ChangeMe123!</code><br>
+          <code>manager@agency.test</code> / <code>Demo1234!</code><br>
+          <code>viewer@agency.test</code> / <code>Demo1234!</code> (read-only)
+        </div>
+      </form>
+    </section>
+  </div>
+  <script src="/js/login.js"></script>
+</body>
+</html>
