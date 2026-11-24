@@ -1,5 +1,5 @@
 {
-  "_note": "PLACEHOLDER DATA. All athletes, addresses and towns below are fictional. Replace this file with the agency's elite athlete table (or use the CSV import) and re-run `npm run db:seed`.",
+  "_note": "FICTIONAL BY DESIGN. For safety and security, every athlete, address and town below is made up. Keep any additions fictional, then re-run `npm run db:seed`.",
   "athletes": [
     {
       "athlete_code": "ATH-1001",
