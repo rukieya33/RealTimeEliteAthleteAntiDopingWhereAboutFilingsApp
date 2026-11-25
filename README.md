@@ -45,7 +45,7 @@ npm install
 cp .env.example .env          # then edit DB_* and JWT_SECRET
 ```
 
-Create the database with the given db_name in .env in Mysql GUI before you Create a MySQL user for the app (once):
+Create the database with the given db_name called athlete_whereabouts, in the Mysql GUI before you Create a MySQL user for the app (once):
 
 ```sql
 CREATE USER 'whereabouts_app'@'localhost' IDENTIFIED BY 'change_me';
